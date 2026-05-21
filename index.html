@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="pt-PT">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guia de reparo | Trabalho Realizado Por 14791 & 14790</title>
+  <meta name="description" content="Guia de reparo" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+  <div class="preloader" id="preloader">
+    <div class="preloader-center">
+      <img class="preloader-logo"
+        src="https://media.discordapp.net/attachments/1434980057826201670/1502068338367664358/oficina_logo-removebg-preview.png?ex=69fe5da6&is=69fd0c26&hm=f25d1aee081408e9d628567b5d0155bf359d4eefcb54ac671b94da71d8ea28e6&=&format=webp&quality=lossless"
+        alt="Logo" />
+      <div class="preloader-spinner"></div>
+      <p class="preloader-text">A carregar...</p>
+    </div>
+    <p class="preloader-credit">Trabalho Realizado Por João Leal & Duarte Azevedo</p>
+  </div>
+
+  <header class="hero" id="topo">
+    <nav class="nav">
+      <a class="logo" href="#topo">Guia de reparo</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">Menu</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#passos">Passos</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">Manual pratico</p>
+      <h1>Guia de reparo</h1>
+
+      <p class="lead">
+        Guia completo e elegante para diagnosticar, reparar e verificar equipamentos
+        com confianca.
+      </p>
+
+      <a class="btn-primary" href="#passos">Comecar agora</a>
+    </div>
+  </header>
+
+  <main id="passos">
+
+    <!-- TABS -->
+    <section class="guide-tabs" aria-label="Selecionar guia">
+      <button class="guide-tab active" data-guide="nao-liga">
+        <i class="fa-solid fa-power-off"></i> Computador não liga
+      </button>
+
+      <button class="guide-tab" data-guide="sem-imagem">
+        <i class="fa-solid fa-desktop"></i> Liga mas sem imagem
+      </button>
+
+      <button class="guide-tab" data-guide="bips">
+        <i class="fa-solid fa-volume-high"></i> Significado dos Bips
+      </button>
+
+      <button class="guide-tab" data-guide="sintomas">
+        <i class="fa-solid fa-triangle-exclamation"></i> Outros problemas	
+      </button>
+    </section>
+
+    <!-- COMPUTADOR NÃO LIGA -->
+    <section class="guide-page active" id="nao-liga">
+
+      <section class="steps-intro">
+        <h2>O Computador não liga?</h2>
+      </section>
+
+      <section class="steps-wrap">
+
+        <article class="step-row">
+          <img class="step-media"
+            src="https://i.postimg.cc/L8NtXBdV/Passo1.avif"
+            alt="Passo 01" />
+
+          <div class="step-copy">
+            <p class="step-label">PASSO 01</p>
+
+            <p class="step-text">
+              Verifica se o cabo de alimentação está bem ligado à tomada e à fonte do PC.
+            </p>
+          </div>
+        </article>
+
+        <article class="step-row reverse">
+          <img class="step-media"
+            src="https://i.postimg.cc/6pYr3Ls0/passo2.avif"
+            alt="Passo 02" />
+
+          <div class="step-copy">
+            <p class="step-label">PASSO 02</p>
+
+            <p class="step-text">
+              Testa a tomada com outro aparelho para confirmar que tem corrente.
+            </p>
+          </div>
+        </article>
+
+        <article class="step-row">
+          <img class="step-media"
+            src="https://i.postimg.cc/JhFj3rzb/passo3.avif"
+            alt="Passo 03" />
+
+          <div class="step-copy">
+            <p class="step-label">PASSO 03</p>
+
+            <p class="step-text">
+              Confirma que o interruptor traseiro da fonte está em posição '|'
+              (ligado).
+            </p>
+          </div>
+        </article>
+
+        <article class="step-row reverse">
+          <img class="step-media"
+            src="https://i.postimg.cc/65VLsxYb/passo4.avif"
+            alt="Passo 04" />
+
+          <div class="step-copy">
+            <p class="step-label">PASSO 04</p>
+
+            <p class="step-text">
+              Verifica se os cabos da fonte (24 pinos e CPU) estão ligados
+              corretamente à motherboard.
+            </p>
+          </div>
+        </article>
+
+        <article class="step-row">
+          <img class="step-media"
+            src="https://i.postimg.cc/FK60brHH/passo5.avif"
+            alt="Passo 05" />
+
+          <div class="step-copy">
+            <p class="step-label">PASSO 05</p>
+
+            <p class="step-text">
+              Retira a fonte para fora da caixa e testa se está a funcionar.
+            </p>
+          </div>
+        </article>
+
+        <article class="step-row reverse">
+          <img class="step-media"
+            src="https://i.postimg.cc/7LhgTGwL/passo6.avif"
+            alt="Passo 06" />
+
+          <div class="step-copy">
+            <p class="step-label">PASSO 06</p>
+
+            <p class="step-text">
+              Abre a fonte e verifica se o fusível não está avariado.
+            </p>
+          </div>
+        </article>
+
+        <article class="step-row">
+          <img class="step-media"
+            src="https://i.postimg.cc/C5GDVbH5/passo7.avif"
+            alt="Passo 07" />
+
+          <div class="step-copy">
+            <p class="step-label">PASSO 07</p>
+
+            <p class="step-text">
+              Se trocaste o fusível e a fonte e mesmo assim não liga,
+              o problema pode estar na motherboard — verifica se
+              não tem nenhum pino entortado.
+            </p>
+          </div>
+        </article>
+
+        <article class="step-row reverse">
+          <img class="step-media"
+            src="https://i.postimg.cc/6QqdG2t7/passo8.jpg"
+            alt="Passo 08" />
+
+          <div class="step-copy">
+            <p class="step-label">PASSO 08</p>
+
+            <p class="step-text">
+              Se nada disso resolver, é necessário trocar a motherboard.
+            </p>
+          </div>
+        </article>
+
+      </section>
+    </section>
+
+    <!-- SEM IMAGEM -->
+    <section class="guide-page" id="sem-imagem">
+
+      <section class="steps-intro">
+        <h2>O computador liga mas não tem imagem?</h2>
+      </section>
+
+      <section class="steps-wrap">
+
+        <article class="step-row">
+          <img class="step-media"
+            src="https://i.postimg.cc/tqXgDQxW/passo1-2.avif"
+            alt="Passo 01" />
+
+          <div class="step-copy">
+            <p class="step-label">PASSO 01</p>
+
+            <p class="step-text">
+              Confirma que o monitor está ligado e na entrada correta
+              (HDMI, DisplayPort, VGA).
+            </p>
+          </div>
+        </article>
+
+        <article class="step-row reverse">
+          <img class="step-media"
+            src="https://i.postimg.cc/HL3dFnyH/passo2-2.jpg"
+            alt="Passo 02" />
+
+          <div class="step-copy">
+            <p class="step-label">PASSO 02</p>
+
+            <p class="step-text">
+              Testa a ligação com outro cabo de vídeo,
+              caso tenhas essa possibilidade.
+            </p>
+          </div>
+        </article>
+
+        <article class="step-row">
+          <img class="step-media"
+            src="https://i.postimg.cc/qRR4rrsX/passo3-2.avif"
+            alt="Passo 03" />
+
+          <div class="step-copy">
+            <p class="step-label">PASSO 03</p>
+
+            <p class="step-text">
+              Remove a placa gráfica do seu encaixe e volta a instalá-la corretamente.
+            </p>
+          </div>
+        </article>
+
+        <article class="step-row reverse">
+          <img class="step-media"
+            src="https://i.postimg.cc/NMMBtt66/passo4-2.avif"
+            alt="Passo 04" />
+
+          <div class="step-copy">
+            <p class="step-label">PASSO 04</p>
+
+            <p class="step-text">
+              Se continuar sem apresentar imagem,
+              retira as memórias RAM e volta a instalá-las.
+            </p>
+          </div>
+        </article>
+
+        <article class="step-row">
+          <img class="step-media"
+            src="https://i.postimg.cc/g0GGM8rQ/passo5-2.webp"
+            alt="Passo 05" />
+
+          <div class="step-copy">
+            <p class="step-label">PASSO 05</p>
+
+            <p class="step-text">
+              Caso o problema persista,
+              efetua um reset à motherboard para repor as configurações.
+            </p>
+          </div>
+        </article>
+
+        <article class="step-row reverse">
+          <img class="step-media"
+            src="https://postimg.cc/XrDMqZf8"
+            alt="Passo 06" />
+
+          <div class="step-copy">
+            <p class="step-label">PASSO 06</p>
+
+            <p class="step-text">
+              Faz reset à BIOS retirando a pilha CR2032
+              da motherboard durante 30 minutos.
+            </p>
+          </div>
+        </article>
+
+        <article class="step-row">
+          <img class="step-media"
+            src="https://i.postimg.cc/ZqJJfp0M/passo7-2.jpg"
+            alt="Passo 07" />
+
+          <div class="step-copy">
+            <p class="step-label">PASSO 07</p>
+
+            <p class="step-text">
+              Ouve os bips do POST —
+              o padrão indica se o problema é RAM, GPU ou CPU.
+            </p>
+          </div>
+        </article>
+
+      </section>
+    </section>
+
+    <!-- BIPS -->
+    <section class="guide-page" id="bips">
+
+      <section class="steps-intro">
+        <h2>O que significam os Bips?</h2>
+      </section>
+
+      <section class="beep-codes-panel" style="margin-top: 0;">
+
+        <div class="beep-codes-grid">
+
+          <div class="beep-card">
+            <span class="beep-title">
+              <i class="fa-solid fa-memory" style="margin-right: 8px;"></i>
+              3 bips curtos (RAM)
+            </span>
+
+            <p class="beep-desc">
+              Indica falha na memória RAM.
+              Tenta retirar, limpar os contatos com uma borracha branca
+              e voltar a encaixar os pentes.
+            </p>
+          </div>
+
+          <div class="beep-card">
+            <span class="beep-title">
+              <i class="fa-solid fa-microchip" style="margin-right: 8px;"></i>
+              1 longo e 2/3 curtos (GPU)
+            </span>
+
+            <p class="beep-desc">
+              Sinaliza problema na placa gráfica.
+              Confirma se a gráfica está bem alimentada
+              e corretamente encaixada no slot PCIe.
+            </p>
+          </div>
+
+          <div class="beep-card">
+            <span class="beep-title">
+              <i class="fa-solid fa-server" style="margin-right: 8px;"></i>
+              5 bips curtos (CPU)
+            </span>
+
+            <p class="beep-desc">
+              Avisa que há um erro no processador.
+              Verifica se não existem pinos entortados
+              no socket da motherboard.
+            </p>
+          </div>
+
+        </div>
+      </section>
+    </section>
+
+<section class="guide-page" id="sintomas">
+
+  <section class="steps-intro">
+    <h2>Outros problemas</h2>
+  </section>
+
+  <section class="faq-wrap">
+
+    <div class="faq-item">
+      <button class="faq-question">
+        O computador liga mas encrava?
+      </button>
+
+      <div class="faq-answer">
+        <p>
+          Este problema pode ser causado por sobreaquecimento,
+          memória RAM defeituosa, disco danificado ou drivers corrompidos.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">
+        O computador está constantemente a reiniciar?
+      </button>
+
+      <div class="faq-answer">
+        <p>
+          Verifica a fonte de alimentação, temperaturas do processador
+          e possíveis erros no sistema operativo.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">
+        O computador funciona normalmente excepto alguns componentes?
+      </button>
+
+      <div class="faq-answer">
+        <p>
+          Confirma os drivers, cabos e ligações dos componentes
+          que não estão a funcionar corretamente.
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+</section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Guia de reparo</p>
+    <a href="#topo">Voltar ao topo</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
